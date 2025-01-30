@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Liter&family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Ana Raquel de Holanda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <div class="photo-qr">
+                <div class="profile-picture">
+                    <img src="./assets/foto_perfil.jpeg" alt="Foto de Ana Raquel">
+                </div>
+                <div class="qr-linkedin">
+                    <a href="https://www.linkedin.com/in/ana-raquel-de-holanda" target="_blank">
+                        <img src="./assets/qr-code.png" alt="QR Code LinkedIn" class="qr-code">
+                    </a>
+                    <span class="qr-caption">Meu LinkedIn</span>
+                </div>
+            </div>
+            <h1>Ana Raquel de Holanda</h1>
+            <div class="contact-info">
+                <span>✉️ anaraquel00@gmail.com</span>
+                <span>📱 (81) 98242-3665</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="tabs">
+            <button class="tab-button active" onclick="openTab('sobre')">Sobre Mim</button>
+            <button class="tab-button" onclick="openTab('projetos')">Projetos</button>
+            <button class="tab-button" onclick="openTab('competencias')">Competências</button>
+            <button class="tab-button" onclick="openTab('curriculum')">Curriculum Vitae</button>
+            <button class="tab-button" onclick="openTab('contato')">Contato</button>
+        </nav>
+
+        <div id="sobre" class="tab-content">
+            <h2>Sobre Mim</h2>
+            <p>Busco uma oportunidade como desenvolvedora Java júnior para aplicar meus conhecimentos em programação e desenvolvimento de software, contribuindo para projetos desafiadores e ampliando minha experiência profissional.</p>
+        </div>
+
+        <div id="projetos" class="tab-content">
+            <h2>Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Mapeando o ENEM</h3>
+                    <p>Plataforma com o objetivo de ajudar os estudantes a planejar seus estudos com o objetivo de passar no ENEM do ano em vigor.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Projeto Cadastro de Clientes</h3>
+                    <p>Ferramenta criada no Eclipse para por em prática o conceito de POO do Java.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="competencias" class="tab-content">
+            <h2>Minhas Competências</h2>
+            <div class="skills-container">
+                <div class="skill-card">Java</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">Eclipse</div>
+                <div class="skill-card">Git/GitHub</div>
+            </div>
+        </div>
+        <div id="curriculum" class="tab-content">
+            <h2>Meu Curriculum</h2>
+            <h3>Perfil Pessoal</h3>
+            <p>Busco uma oportunidade como desenvolvedora Java júnior para aplicar meus conhecimentos em programação e desenvolvimento de software, contribuindo para projetos desafiadores e ampliando minha experiência profissional.</p>
+            <h3>Habilidades Técnicas</h3>
+            <p>Linguagens: Java, JavaScript (básico)
+                Frameworks: Spring Boot (básico), Hibernate
+                Banco de Dados: MySQL, PostgreSQL
+                Ferramentas: Git, Eclipse, VSCode
+                Outros: HTML, CSS</p>
+                <h3>Autoaprendizado</h3>
+                <p>Autoaprendizado em Desenvolvimento Web
+                    Plataformas Online (YouTube e outras fontes)
+                    Estudo contínuo de HTML, CSS e JavaScript desde [JANEIRO/2025].
+                    Aplicação prática dos conhecimentos adquiridos em pequenos projetos pessoais, como criação de páginas estáticas e interativas.
+                    Uso de tutoriais avançados para aprofundar fundamentos de programação e boas práticas</p>
+                    <h3>Certificaçao</h3>
+                    <p>IFRS EAD 40 horas - JAVA I , II e III (NOVEMBRO/2024)</p>
+                    <p>Sintaxe básica, estruturas de controle, orientação a objetos (classes, objetos, herança, polimorfismo, encapsulamento).</p>
+                    <h3>FORMACAO</h3>
+                    <h4>FUCTURA TECNOLOGIA</h4>
+                    <P>Academia JAVA (previsão de conclusão: SET/2025)</P>
+                    <h4>UNIVERSIRTÉ D'Orléans</h4>
+                    <p>Diplôme universitaire des études françaises (DUEF B2) (2020 -2021)</p>
+                    <p>Diplôme d'Études en Langue Française (DELF B2)</p>
+                    <h4>FACULDADE ESTACIO DE RECIFE</h4>
+                    <p>Formação em Relações Internacionais (2005-2010)</p>
+                    <h3>Idiomas</h3>
+                    <p>Português (nativo), Inglês (intermediario), Francês (fluente)</p>
+                    <h3>Centro de Interesse</h3>
+                    <p>Sites, games, músicas:</p>
+                       <p>* Canal YouTube: <a href="https://www.youtube.com/@AnimeMusicVideos5">youtube.com/channel/UC4XQ29bhRmhxvYT9-4a9Otw</a></p>
+                      
+                        <h3>Meus Interesses Tecnológicos</h3>
+                        <div class="learning-path">
+                            <div class="interest-card suno-ai">
+                                <div class="interest-header">
+                                    <img src="https://suno.com/favicon.ico" alt="SunoAI Icon" class="interest-icon">
+                                    <h3>Explorando SunoAI</h3>
+                                </div>
+                                
+                                <div class="interest-content">
+                                    <p>Atualmente estou explorando as possibilidades incríveis do SunoAI para:</p>
+                                    <ul class="interest-list">
+                                        <li>🎵 Compreender a geração de música via IA</li>
+                                        <li>🤖 Experimentar com inteligência artificial criativa</li>
+                                        <li>💡 Aprender sobre integração de APIs de IA</li>
+                                        <li>Compor músicas utilizando técnicas e prompts de comando para gerar belas músicas.</li>
+                                    </ul>
+                                    
+                                    <div class="exploration-box">
+                                        <p>Confira essa demonstração que criei:</p>
+                                        <div class="demo-example">
+                                            <a href="https://suno.com/song/562460b5-40cf-4427-ad25-d74cf3ba319b" target="_blank" class="suno-link">
+                                                <img src="assets/image_music.jpeg" alt="Minha Primeira Experiência com SunoAI" class="demo-image">
+                                            </a>
+                                            <p class="demo-text">Clique na imagem para visitar o Suno.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="learning-roadmap">
+                                <h3>Meu Caminho de Aprendizado</h3>
+                                <div class="roadmap-steps">
+                                    <div class="step current">
+                                        <span>1</span>
+                                        <p>Estudando fundamentos de IA</p>
+                                    </div>
+                                    <div class="step next">
+                                        <span>2</span>
+                                        <p>Experimentando APIs de música</p>
+                                    </div>
+                                    <div class="step future">
+                                        <span>3</span>
+                                        <p>Desenvolvendo projetos simples</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+        </div>
+        <div id="contato" class="tab-content">
+            <form class="contact-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea rows="5" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
